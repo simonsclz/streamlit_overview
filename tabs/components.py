@@ -121,9 +121,9 @@ def components(content_ph) -> None:
         st.divider()
 
         st.header("Sidebar")
-        st.markdown("Auch eine Sidebar lässt sich mit Streamlit implementieren."
-                    "Die 'with'-Notation ermöglicht eine Verwendung, die sich von der"
-                    "herkömmlichen Streamlit-Notation kaum unterscheidet.")
+        st.markdown("""Auch eine Sidebar lässt sich mit Streamlit implementieren.
+                    Die 'with'-Notation ermöglicht eine Verwendung, die sich von der
+                    herkömmlichen Streamlit-Notation kaum unterscheidet.""")
         st.code('''with st.sidebar:
             \tst.markdown("Hier könnte Ihre Werbung stehen.")''')
         with st.sidebar:
