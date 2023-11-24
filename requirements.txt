@@ -1,1 +1,2 @@
 extra-streamlit-components==0.1.60
+streamlit~=1.28.0
