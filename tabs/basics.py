@@ -76,6 +76,7 @@ def basics(content_ph) -> None:
         st.markdown("""Du möchtest Dein erstelltes Streamlit-Script ausführen und Deine
         WebApp begutachten? Gib dazu folgenden Befehl in Deine Konsole ein:""")
         st.code("streamlit run <Scriptname>.py", language="bash")
+        st.markdown("Auf Deinem localhost wird die Website zu sehen sein.")
         st.divider()
 
         st.markdown("""**Streamlit ist nicht schwer zu verstehen, oder? :smile:
