@@ -69,7 +69,7 @@ def basics(content_ph) -> None:
         st.markdown("""Dieser Prozess ist zwar kaum spürbar, kann aber
         Auswirkungen auf Animationen haben. Wird die Animierungsgeschwindigkeit während
         des Ausführens durch einen Slider geändert, so würde die Animation von vorne beginnen.
-        Dies ist durch Änderung des Codes abwendbar.""")
+        Dies ist durch Änderung des Codes (if-Statements) abwendbar.""")
         st.divider()
 
         st.subheader("Deploying eines Streamlit-Scripts")
