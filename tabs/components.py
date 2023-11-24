@@ -31,8 +31,8 @@ def components(content_ph) -> None:
         Streamlit bereits eine umfassende Sammlung an Funktionen.""")
 
         st.code("st.text('Das ist ein erster Test.')")
-        st.markdown("Mit Hilfe dieses einfachen Commands kann einfacher Text dargestellt"
-                    "werden. Das Ergebnis dieses Codestückes wäre:")
+        st.markdown("""Mit Hilfe dieses einfachen Commands kann einfacher Text dargestellt
+                    werden. Das Ergebnis dieses Codestückes wäre:""")
         st.text('Das ist ein erster Test.')
 
         st.markdown("""Um die äußere Form des Textes ansprechender zu machen,
