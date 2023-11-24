@@ -1,5 +1,7 @@
 import streamlit as st
 import extra_streamlit_components as stx
+from streamlit_lottie import st_lottie
+import json
 from tabs.basics import basics
 from tabs.components import components
 from tabs.additional import additional
@@ -14,7 +16,10 @@ def app() -> None:
     :return: None.
     """
 
-    st.title(":blue[Streamlit Overview]")
+    c1, c2 = st.columns([6, 4])
+    c1.title(":blue[Streamlit Overview]")
+    with c2:
+        st_lottie(json.load(open(r"/mount/src/streamlit_overview/lotties/programming.json")))
 
     st.header("Eine Übersicht über Streamlit")
     st.markdown("""Streamlit ist eine Python-Bibliothek beziehungsweise ein Python-Framework
