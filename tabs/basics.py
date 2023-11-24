@@ -72,6 +72,12 @@ def basics(content_ph) -> None:
         Dies ist durch Änderung des Codes abwendbar.""")
         st.divider()
 
+        st.subheader("Deploying eines Streamlit-Scripts")
+        st.markdown("""Du möchtest Dein erstelltes Streamlit-Script ausführen und Deine
+        WebApp begutachten? Gib dazu folgenden Befehl in Deine Konsole ein:""")
+        st.code("streamlit run <Scriptname>.py", language="bash")
+        st.divider()
+
         st.markdown("""**Streamlit ist nicht schwer zu verstehen, oder? :smile:
         Gehe zum nächsten Tab und schaue Dir ein paar Komponenten an.**""")
         file = open("./custom/button.html")
