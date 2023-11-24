@@ -71,7 +71,7 @@ def basics(content_ph) -> None:
         des Ausführens durch einen Slider geändert, so würde die Animation von vorne beginnen.
         Dies ist durch Änderung des Codes (if-Statements) abwendbar.""")
         st.markdown("Eine ausführliche Referenz: "
-                    "[Streamlit-Session-State](https://docs.streamlit.io/library/api-reference/session-state)")
+                    "[Streamlit-Session-State](https://docs.streamlit.io/library/api-reference/session-state).")
         st.divider()
 
         st.subheader("Deploying eines Streamlit-Scripts")
