@@ -9,7 +9,7 @@ def clicked():
     st.balloons()
     st.markdown("""
     <script>
-        window.open('https://google.de', '_self')
+        window.open('https://google.de', '_blank')
     </script>""", unsafe_allow_html=True)
 
 
