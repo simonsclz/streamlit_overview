@@ -9,7 +9,7 @@ def clicked():
     st.balloons()
     st.markdown("""
     <script>
-        windows.location.assign('https://overview.streamlit.app/#interaktive-widgets')
+        windows.location.href = 'https://overview.streamlit.app/#interaktive-widgets'
     </script>""", unsafe_allow_html=True)
 
 
