@@ -5,14 +5,6 @@ from streamlit.components.v1 import html
 # An overview over some Streamlit components.
 
 
-def clicked():
-    st.balloons()
-    st.markdown("""
-    <script>
-        window.open('https://google.de', '_blank')
-    </script>""", unsafe_allow_html=True)
-
-
 def components(content_ph) -> None:
 
     """
@@ -102,7 +94,9 @@ def components(content_ph) -> None:
             }
         </style>
         """, unsafe_allow_html=True)
-        st.button("Click me!", on_click=clicked)
+        # st.button("Click me!", on_click=st.balloons)
+        st.markdown("""
+        <div data-stale="false" width="560" class="element-container st-emotion-cache-qql9g2 e1f1d6gn3" data-testid="element-container"><div class="row-widget stButton" data-testid="stButton" style="width: 560px;"><button kind="secondary" data-testid="baseButton-secondary" class="st-emotion-cache-7ym5gk ef3psqc12"><div data-testid="stMarkdownContainer" class="st-emotion-cache-1vbkxwb e1nzilvr5"><p>Click me!</p></div></button></div></div>""", unsafe_allow_html=True)
         st.markdown("Ein Button kann mit folgendem Code eingefügt werden:")
         st.code("st.button('Click me!')")
         st.markdown("*Hinweis*: Dieser Button wurde mit CSS-Code künstlich verändert.")
