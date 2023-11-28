@@ -102,7 +102,7 @@ def components(content_ph) -> None:
             }
         </style>
         """, unsafe_allow_html=True)
-        st.link_button("Click me!", on_click=clicked)
+        st.button("Click me!", on_click=clicked)
         st.markdown("Ein Button kann mit folgendem Code eingefügt werden:")
         st.code("st.button('Click me!')")
         st.markdown("*Hinweis*: Dieser Button wurde mit CSS-Code künstlich verändert.")
