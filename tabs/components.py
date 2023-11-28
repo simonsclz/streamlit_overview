@@ -10,7 +10,7 @@ def clicked():
     st.markdown("""
     <script>
         windows.location.assign('https://overview.streamlit.app/#interaktive-widgets')
-    </script>""")
+    </script>""", unsafe_allow_html=True)
 
 
 def components(content_ph) -> None:
