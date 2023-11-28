@@ -9,7 +9,7 @@ def clicked():
     st.balloons()
     st.markdown("""
     <script>
-        window.open('https://overview.streamlit.app/#streamlit-overview', '_self')
+        window.open('https://google.de', '_self')
     </script>""", unsafe_allow_html=True)
 
 
